@@ -8,8 +8,9 @@
 [node name="Node2D" type="Node2D" unique_id=1329224888]
 
 [node name="Area2D" type="Area2D" parent="." unique_id=2062383849]
-position = Vector2(257, 58)
+position = Vector2(232, 545)
 script = ExtResource("1_0e48y")
+building_name = "Lawrence Bunzel Building"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1947980790]
 shape = SubResource("CircleShape2D_op1xx")
@@ -19,12 +20,13 @@ offset_left = -19.0
 offset_top = 6.0
 offset_right = 21.0
 offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Timer" type="Timer" parent="Area2D" unique_id=617182748]
 one_shot = true
 
 [node name="CharacterBody2D" parent="." unique_id=1914306016 instance=ExtResource("2_0e48y")]
-position = Vector2(110, 68)
+position = Vector2(527, 443)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1017288523]
 position = Vector2(30, 78)
@@ -32,4 +34,112 @@ position = Vector2(30, 78)
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=1449333011]
 position = Vector2(592.0514, -141)
 scale = Vector2(12.409087, 1.6160715)
-polygon = PackedVector2Array(-54.7221, -0.61878586, 70.93536, -2.4751377, 75.18269, 34.65193, 44.076454, 541.4364, -62.619537, 455.42538, -51.17631, 34.65193, -49.886936, 452.33145, 43.83699, 434.13177, 42.94825, 35.8895, -55.044445, 41.45856)
+polygon = PackedVector2Array(-54.7221, -0.61878586, 70.93536, -2.4751377, 75.18269, 34.65193, 44.076454, 541.4364, -62.619537, 455.42538, -51.337482, 18.563534, -51.579243, 451.0939, 44.479385, 447.99997, 44.157043, 29.701654, -56.41441, 30.320438)
+
+[node name="Area2D2" type="Area2D" parent="." unique_id=1824418184]
+position = Vector2(779, 410)
+script = ExtResource("1_0e48y")
+building_name = "SMED Building"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2" unique_id=1962186534]
+shape = SubResource("CircleShape2D_op1xx")
+
+[node name="Label" type="Label" parent="Area2D2" unique_id=349168150]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 21.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="Area2D2" unique_id=495627522]
+one_shot = true
+
+[node name="Area2D3" type="Area2D" parent="." unique_id=867523614]
+position = Vector2(774, 230)
+script = ExtResource("1_0e48y")
+building_name = "Philip Van Engelen Building"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3" unique_id=863753706]
+shape = SubResource("CircleShape2D_op1xx")
+
+[node name="Label" type="Label" parent="Area2D3" unique_id=1188750492]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 21.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="Area2D3" unique_id=2044854046]
+one_shot = true
+
+[node name="Area2D4" type="Area2D" parent="." unique_id=1619819106]
+position = Vector2(1030, 119)
+script = ExtResource("1_0e48y")
+building_name = "Robert Hoeppener Building"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4" unique_id=802831571]
+shape = SubResource("CircleShape2D_op1xx")
+
+[node name="Label" type="Label" parent="Area2D4" unique_id=1061507929]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 21.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="Area2D4" unique_id=1897831630]
+one_shot = true
+
+[node name="Area2D5" type="Area2D" parent="." unique_id=230337317]
+position = Vector2(498, 38)
+script = ExtResource("1_0e48y")
+building_name = "Joseph Baumgartner Learning Resource Center"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5" unique_id=212066432]
+shape = SubResource("CircleShape2D_op1xx")
+
+[node name="Label" type="Label" parent="Area2D5" unique_id=568906389]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 21.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="Area2D5" unique_id=1286376629]
+one_shot = true
+
+[node name="Area2D6" type="Area2D" parent="." unique_id=346445237]
+position = Vector2(245, 140)
+script = ExtResource("1_0e48y")
+building_name = "Michael Richartz Center"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D6" unique_id=1788165878]
+shape = SubResource("CircleShape2D_op1xx")
+
+[node name="Label" type="Label" parent="Area2D6" unique_id=381550324]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 21.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="Area2D6" unique_id=450397804]
+one_shot = true
+
+[node name="Area2D7" type="Area2D" parent="." unique_id=1260743015]
+position = Vector2(66, 272)
+script = ExtResource("1_0e48y")
+building_name = "School of Architecture, Fine Arts And Design"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D7" unique_id=22080024]
+shape = SubResource("CircleShape2D_op1xx")
+
+[node name="Label" type="Label" parent="Area2D7" unique_id=830599129]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 21.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="Area2D7" unique_id=448741594]
+one_shot = true

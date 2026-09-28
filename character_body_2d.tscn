@@ -1,11 +1,54 @@
 [gd_scene format=3 uid="uid://b7rvrxj2mpuiq"]
 
 [ext_resource type="Script" uid="uid://cxe7ibb1m6dpn" path="res://character_body_2d.gd" id="1_f50pn"]
+[ext_resource type="Texture2D" uid="uid://bwvgdnviwaff5" path="res://assets/assets/characters/student_uniform.png" id="2_ghijl"]
+[ext_resource type="Texture2D" uid="uid://bijkka6mj8s5s" path="res://assets/assets/characters/student_uniform_walking.png" id="3_44cfe"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_op1xx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_op1xx"]
 size = Vector2(89, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dd465"]
+atlas = ExtResource("2_ghijl")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lhvu3"]
+atlas = ExtResource("2_ghijl")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4sjlk"]
+atlas = ExtResource("3_44cfe")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qp52p"]
+atlas = ExtResource("3_44cfe")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kmatr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dd465")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lhvu3")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4sjlk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qp52p")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 7.0
+}]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1914306016]
 script = ExtResource("1_f50pn")
@@ -18,3 +61,8 @@ shape = SubResource("CircleShape2D_op1xx")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=638173536]
 scale = Vector2(0.5505732, 0.5409331)
 shape = SubResource("RectangleShape2D_op1xx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=43582703]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_kmatr")
+animation = &"idle"

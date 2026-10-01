@@ -5,6 +5,9 @@ const SPEED = 300.0
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var area2d: Area2D = $Area2D
 
+func _ready() -> void:
+	print("hello")
+	
 func _physics_process(delta: float) -> void:
 	# Direction inputs
 	var direction := Input.get_axis("ui_left", "ui_right")

@@ -1,12 +1,13 @@
 extends Area2D
 
 @export var building_name: String = "Building Name"
+@export var scene_name: String = "res://new.tscn"
 
 @onready var label = $Label
 @onready var timer = $Timer
 
 func change_scene():
-	get_tree().change_scene_to_file("res://new.tscn")
+	get_tree().change_scene_to_file(scene_name)
 
 func _ready() -> void:
 	pass

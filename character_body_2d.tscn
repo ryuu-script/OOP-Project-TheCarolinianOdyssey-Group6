@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://b7rvrxj2mpuiq"]
 
 [ext_resource type="Script" uid="uid://cxe7ibb1m6dpn" path="res://character_body_2d.gd" id="1_f50pn"]
-[ext_resource type="Texture2D" uid="uid://bwvgdnviwaff5" path="res://assets/assets/characters/student_uniform.png" id="2_ghijl"]
-[ext_resource type="Texture2D" uid="uid://bijkka6mj8s5s" path="res://assets/assets/characters/student_uniform_walking.png" id="3_44cfe"]
+[ext_resource type="Texture2D" uid="uid://bwvgdnviwaff5" path="res://assets/characters/student_uniform.png" id="2_ghijl"]
+[ext_resource type="Texture2D" uid="uid://bijkka6mj8s5s" path="res://assets/characters/student_uniform_walking.png" id="3_44cfe"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_op1xx"]
 

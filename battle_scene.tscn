@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bvledy7h4o442"]
 
 [ext_resource type="Script" uid="uid://lvebrba3418n" path="res://control.gd" id="1_0qrqu"]
+[ext_resource type="PackedScene" uid="uid://buxs0fs4upngl" path="res://player.tscn" id="3_37rai"]
 [ext_resource type="Script" uid="uid://btg0qt77xat1j" path="res://student.gd" id="4_fsbdh"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=854705914]
@@ -56,3 +57,5 @@ horizontal_alignment = 1
 
 [node name="Timer" type="Timer" parent="Control" unique_id=1664100225]
 one_shot = true
+
+[node name="Player" parent="." unique_id=850203686 instance=ExtResource("3_37rai")]

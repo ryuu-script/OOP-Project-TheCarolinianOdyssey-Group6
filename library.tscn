@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://ck6ytf6m3d5x6"]
+
+[ext_resource type="PackedScene" uid="uid://b7dnevhrgjeh6" path="res://bunzel.tscn" id="1_2cia1"]
+
+[node name="Node2D" unique_id=76417480 instance=ExtResource("1_2cia1")]

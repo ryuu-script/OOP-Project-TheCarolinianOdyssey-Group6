@@ -11,6 +11,7 @@
 position = Vector2(232, 545)
 script = ExtResource("1_0e48y")
 building_name = "Lawrence Bunzel Building"
+scene_name = "res://bunzel.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1947980790]
 shape = SubResource("CircleShape2D_op1xx")
@@ -40,6 +41,7 @@ polygon = PackedVector2Array(-54.7221, -0.61878586, 70.93536, -2.4751377, 75.182
 position = Vector2(779, 410)
 script = ExtResource("1_0e48y")
 building_name = "SMED Building"
+scene_name = "res://smed.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2" unique_id=1962186534]
 shape = SubResource("CircleShape2D_op1xx")
@@ -58,6 +60,7 @@ one_shot = true
 position = Vector2(774, 230)
 script = ExtResource("1_0e48y")
 building_name = "Philip Van Engelen Building"
+scene_name = "res://sas.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3" unique_id=863753706]
 shape = SubResource("CircleShape2D_op1xx")
@@ -76,6 +79,7 @@ one_shot = true
 position = Vector2(1030, 119)
 script = ExtResource("1_0e48y")
 building_name = "Robert Hoeppener Building"
+scene_name = "res://rh.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4" unique_id=802831571]
 shape = SubResource("CircleShape2D_op1xx")
@@ -94,6 +98,7 @@ one_shot = true
 position = Vector2(498, 38)
 script = ExtResource("1_0e48y")
 building_name = "Joseph Baumgartner Learning Resource Center"
+scene_name = "res://library.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5" unique_id=212066432]
 shape = SubResource("CircleShape2D_op1xx")
@@ -112,6 +117,7 @@ one_shot = true
 position = Vector2(245, 140)
 script = ExtResource("1_0e48y")
 building_name = "Michael Richartz Center"
+scene_name = "res://mr.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D6" unique_id=1788165878]
 shape = SubResource("CircleShape2D_op1xx")
@@ -130,6 +136,7 @@ one_shot = true
 position = Vector2(66, 272)
 script = ExtResource("1_0e48y")
 building_name = "School of Architecture, Fine Arts And Design"
+scene_name = "res://safad.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D7" unique_id=22080024]
 shape = SubResource("CircleShape2D_op1xx")
